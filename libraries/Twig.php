@@ -325,7 +325,7 @@ class Twig
     public function layout($name)
     {
         $this->_layout = $name;
-        $this->_twig->addGlobal('_layout', 'base/'. $this->_layout . $this->_config['template_file_ext']);
+        $this->_twig->addGlobal('base', 'base/'. $this->_layout . $this->_config['template_file_ext']);
 
         return $this;
     }
