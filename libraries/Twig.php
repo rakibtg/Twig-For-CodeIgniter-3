@@ -1,5 +1,17 @@
 <?php  if (!defined('BASEPATH')) exit('No direct script access allowed');
 
+/**
+ * Twig For CodeIgniter 3
+ * GitHub   => https://github.com/rakibtg/Twig-For-CodeIgniter-3
+ * Package  => CodeIgniter 3.x
+ * Version  => 1.0
+ * Author   => 
+ *  - Original Author: Edmundas Kondrašovas <as@edmundask.lt>
+ *  - Extended Version Author: Hasan < https://twitter.com/rakibtg >
+ *  - The parent version was shifted to CodeIgniter 3 by Hasan
+ * License  => http://www.opensource.org/licenses/MIT
+ */
+
 define('TWIG_ROOT', dirname(dirname(__FILE__)));
 
 require_once(TWIG_ROOT . '/vendor/twig/twig/lib/Twig/Autoloader.php');
